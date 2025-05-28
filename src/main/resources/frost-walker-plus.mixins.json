@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.sjkz1.frost_walker_plus.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PowderSnowBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
