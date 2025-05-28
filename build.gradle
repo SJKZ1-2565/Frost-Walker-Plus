@@ -100,7 +100,7 @@ publishing {
 curseforge {
 	apiKey = System.getenv("CURSFORGE_TOKEN")
 	project {
-		id = "1258298"
+		id = "1275210"
 		changelog = rootProject.file("CHANGE_LOG.md")
 		changelogType = "markdown"
 		releaseType = "release"
@@ -119,7 +119,7 @@ curseforge {
 
 modrinth {
 	token = System.getenv("MODRINTH_TOKEN")
-	projectId = "Mx5AwwqT"
+	projectId = "nrwl52c3"
 	versionName = "Frost Walekr + ${rootProject.mod_version} ${minecraft_version}"
 	versionNumber = rootProject.minecraft_version + "-v-" + rootProject.mod_version
 	uploadFile = remapJar
