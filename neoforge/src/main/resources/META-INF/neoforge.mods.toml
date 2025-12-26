@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "frostwalkerplus"
+version = "${version}"
+displayName = "FrostWalkerPlus"
+authors = "SJKZ1"
+description = '''
+Frost Walker Enchantment can walk and climb up on Powder Snow.  
+'''
+#logoFile = ""
+
+[[dependencies.frostwalkerplus]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.frostwalkerplus]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.8,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.frostwalkerplus]]
+modId = "architectury"
+type = "required"
+versionRange = "[17.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "frostwalkerplus.mixins.json"
