@@ -118,7 +118,7 @@ modrinth {
     token = project.hasProperty("modrinth_api_token") ? modrinth_api_token : ""
     projectId = "nrwl52c3"
     versionName = "Frost Walker + ${rootProject.mod_version} ${minecraft_version} Fabric"
-    versionNumber = rootProject.archives_name + "-v-" + rootProject.mod_version + "-fabric"
+    versionNumber = "frost-walker+-" + rootProject.mod_version + "-fabric"
     uploadFile = remapJar
     changelog = rootProject.file("CHANGE_LOG.md").text
     gameVersions = ["${minecraft_version}"]
