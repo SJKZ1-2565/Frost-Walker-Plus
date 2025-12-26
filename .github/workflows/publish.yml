@@ -53,6 +53,6 @@ jobs:
         uses: tsickert/discord-webhook@v7.0.0
         with:
           webhook-url: ${{ secrets.DISCORD_API_TOKEN }}
-          content: "# Frost Walker + 1.21.8 Release!"
+          content: "# Frost Walker+ 1.21.8 Release!"
           embed-title: "Checkout at"
           embed-description: "Modrinth: https://modrinth.com/mod/frost-walker-plus\nCurseForge: https://www.curseforge.com/minecraft/mc-mods/frost-walker"
