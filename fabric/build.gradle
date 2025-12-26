@@ -97,7 +97,7 @@ remapJar {
 curseforge {
     apiKey = project.hasProperty("curseforge_api_token") ? curseforge_api_token : ""
     project {
-        id = "684957"
+        id = "1275210"
         changelog = rootProject.file("CHANGE_LOG.md")
         changelogType = "markdown"
         releaseType = "release"
@@ -118,7 +118,7 @@ modrinth {
     token = project.hasProperty("modrinth_api_token") ? modrinth_api_token : ""
     projectId = "nrwl52c3"
     versionName = "Frost Walker + ${rootProject.mod_version} ${minecraft_version} Fabric"
-    versionNumber = rootProject.minecraft_version + "-v-" + rootProject.mod_version + "-fabric"
+    versionNumber = rootProject.archives_name + "-v-" + rootProject.mod_version + "-fabric"
     uploadFile = remapJar
     changelog = rootProject.file("CHANGE_LOG.md").text
     gameVersions = ["${minecraft_version}"]
